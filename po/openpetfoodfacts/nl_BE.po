@@ -11,7 +11,7 @@ msgstr ""
 "X-Crowdin-Project: openfoodfacts\n"
 "X-Crowdin-Project-ID: 243092\n"
 "X-Crowdin-Language: nl-BE\n"
-"X-Crowdin-File-ID: 2546\n"
+"X-Crowdin-File-ID: 3516\n"
 
 #. make sure the logo exists for your language, otherwise ask @teolemon how to create a translated logo
 msgctxt "logo"
@@ -102,7 +102,7 @@ msgstr "EMB 53062"
 
 msgctxt "site_description"
 msgid "A collaborative, free and open database of ingredients, nutrition facts and information on pet food products from around the world"
-msgstr "Een collaboratieve, gratis en open database met ingrediënten, voedingsfeiten en informatie over dierenvoedsel uit de hele wereld"
+msgstr "Een gezamenlijke, vrije en open database met ingrediënten, voedingsfeiten en informatie over dierenvoedsel uit de hele wereld"
 
 msgctxt "footer_and_the_facebook_group"
 msgid "and the <a href=\"https://www.facebook.com/groups/OpenFoodFacts/\">Facebook group for contributors</a>"
