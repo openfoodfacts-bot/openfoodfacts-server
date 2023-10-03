@@ -11,7 +11,7 @@ msgstr ""
 "X-Crowdin-Project: openfoodfacts\n"
 "X-Crowdin-Project-ID: 243092\n"
 "X-Crowdin-Language: pl\n"
-"X-Crowdin-File-ID: 2540\n"
+"X-Crowdin-File-ID: 3510\n"
 
 #. do not translate
 msgctxt "android_apk_app_link"
@@ -137,10 +137,10 @@ msgstr "/otwórz-aplikację-mobilną-beauty-facts"
 # Do not translate
 msgctxt "footer_obf"
 msgid "Open Food Facts"
-msgstr "Open Food Facts"
+msgstr ""
 
 # Do not translate
 msgctxt "footer_obf_link"
 msgid "https://world.openfoodfacts.org"
-msgstr ""
+msgstr "https://world.openfoodfacts.org"
 
