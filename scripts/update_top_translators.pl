@@ -3,7 +3,7 @@
 # This file is part of Product Opener.
 #
 # Product Opener
-# Copyright (C) 2011-2019 Association Open Food Facts
+# Copyright (C) 2011-2023 Association Open Food Facts
 # Contact: contact@openfoodfacts.org
 # Address: 21 rue des Iles, 94100 Saint-Maur des Fossés, France
 #
@@ -25,6 +25,7 @@ use Modern::Perl '2017';
 use Exporter qw< import >;
 
 use ProductOpener::Config qw/:all/;
+use ProductOpener::Paths qw/:all/;
 
 use LWP::UserAgent;
 use JSON::PP;
@@ -87,7 +88,7 @@ sub download_export {
 		print STDERR "download_export: success\n";
 
 		my $csv_response = $res->decoded_content;
-		my $filename = "$www_root/data/top_translators.csv";
+		my $filename = "$BASE_DIRS{PUBLIC_DATA}/top_translators.csv";
 		print STDERR "download_export: saving response to $filename\n";
 
 		open(my $OUT, ">:encoding(UTF-8)", $filename);

@@ -3,7 +3,7 @@
 # This file is part of Product Opener.
 #
 # Product Opener
-# Copyright (C) 2011-2019 Association Open Food Facts
+# Copyright (C) 2011-2023 Association Open Food Facts
 # Contact: contact@openfoodfacts.org
 # Address: 21 rue des Iles, 94100 Saint-Maur des Fossés, France
 #
@@ -33,7 +33,17 @@ use Apache2::Const ();
 use List::Util qw(shuffle);
 use Log::Any qw($log);
 
-my $ids_ref = lock_retrieve("/srv/sugar/data/products_ids.sto");
+use ProductOpener::Paths qw/:all/;
+
+# this script is used by howmuchsugar to redirect to a new product randomly
+
+my $r = shift;
+
+# read site name in apache provided header
+my $lang = $r->headers_in->{"X-Site-Lang"} // 'en';
+
+my $ids_ref = lock_retrieve($BASE_DIRS{PRIVATE_DATA} . "/sugar/$lang/products_ids.sto")
+	or die("Cannot open sugar/products_ids.sto");
 my @ids = @$ids_ref;
 
 srand();
@@ -43,7 +53,6 @@ my @shuffle = shuffle(@ids);
 my $id = pop(@shuffle);
 
 $log->info("random ids sampled", {ids => scalar(@ids), id => $id}) if $log->is_info();
-my $r = shift;
 
 $r->headers_out->set(Location => "/$id");
 $r->headers_out->set(Pragma => "no-cache");

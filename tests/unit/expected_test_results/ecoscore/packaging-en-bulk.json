@@ -14,6 +14,9 @@
             ],
             "epi_score" : 0,
             "epi_value" : -5,
+            "origins_from_categories" : [
+               "en:unknown"
+            ],
             "origins_from_origins_field" : [
                "en:unknown"
             ],
@@ -409,6 +412,7 @@
    ],
    "lc" : "en",
    "misc_tags" : [
+      "en:packagings-number-of-components-1",
       "en:packagings-not-complete",
       "en:packagings-not-empty-but-not-complete",
       "en:packagings-not-empty",
@@ -421,10 +425,20 @@
       "en:ecoscore-changed",
       "en:ecoscore-grade-changed"
    ],
+   "packaging_materials_tags" : [],
+   "packaging_recycling_tags" : [],
+   "packaging_shapes_tags" : [
+      "en:bulk"
+   ],
    "packaging_text" : "bulk",
    "packagings" : [
       {
          "shape" : "en:bulk"
       }
-   ]
+   ],
+   "packagings_materials" : {
+      "all" : {},
+      "en:unknown" : {}
+   },
+   "packagings_n" : 1
 }

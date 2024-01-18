@@ -1,7 +1,7 @@
 # This file is part of Product Opener.
 #
 # Product Opener
-# Copyright (C) 2011-2020 Association Open Food Facts
+# Copyright (C) 2011-2023 Association Open Food Facts
 # Contact: contact@openfoodfacts.org
 # Address: 21 rue des Iles, 94100 Saint-Maur des Fossés, France
 #
@@ -28,7 +28,7 @@ C<ProductOpener::URL> is used to generate a URL of the product according to the 
 
 	use ProductOpener::URL qw/:all/;
 
-	my $image = "$www_root/images/products/$path/$filename.full.jpg";
+	my $image = "$BASE_DIRS{PRODUCTS_IMAGES}/$path/$filename.full.jpg";
 	my $image_url = format_subdomain('static') . "/images/products/$path/$filename.full.jpg";
 	
 	# subdomain format:
@@ -61,6 +61,7 @@ use vars @EXPORT_OK;
 use experimental 'smartmatch';
 
 use ProductOpener::Config qw/:all/;
+use ProductOpener::Paths qw/:all/;
 
 =head1 FUNCTIONS
 

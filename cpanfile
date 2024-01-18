@@ -1,6 +1,6 @@
 # Should also be available as Debian packages
 # If a minimum version number is specified, "cpanm --skip-satisfied" will install a newer version than apt if one is available in cpan.
-
+requires 'Array::Diff';
 requires 'CGI', '>= 4.53, < 5.0'; # libcgi-pm-perl
 requires 'Tie::IxHash'; # libtie-ixhash-perl
 requires 'LWP::Authen::Digest'; # libwww-perl
@@ -9,9 +9,12 @@ requires 'LWP::UserAgent'; # libwww-perl
 requires 'Image::Magick'; # libimage-magick-perl
 requires 'XML::Encoding'; # libxml-encoding-perl
 requires 'MIME::Lite'; # libmime-lite-perl
+requires 'MIME::Base32';
 requires 'Cache::Memcached::Fast'; #libcache-memcached-fast-perl
 requires 'JSON'; # libjson-perl
 requires 'JSON::PP'; # libjson-pp-perl
+requires 'Cpanel::JSON::XS'; # libcpanel-json-xs-perl - fast parsing
+requires 'JSON::MaybeXS'; # libjson-maybexs-perl
 requires 'Clone'; # libclone-perl
 requires 'Crypt::PasswdMD5'; # libcrypt-passwdmd5-perl
 requires 'Encode::Detect'; # libencode-detect-perl
@@ -67,7 +70,9 @@ requires 'JSON::Parse';
 requires 'Data::DeepAccess';
 requires 'XML::XML2JSON';
 requires 'Redis';
-
+requires 'Digest::SHA1';
+requires 'Data::Difference';
+requires 'Data::Compare';
 
 # Mojolicious/Minion
 requires 'Mojolicious::Lite';
@@ -83,6 +88,23 @@ requires 'Log::Any::Adapter::Log4perl', '>= 0.09'; # liblog-any-adapter-log4perl
 requires 'Action::CircuitBreaker';
 requires 'Action::Retry'; # deps: libmath-fibonacci-perl
 
+# AnyEvent
+requires 'AnyEvent';
+requires 'AnyEvent::Inotify::Simple';
+
+# more Apache stuff
+requires 'Apache::Bootstrap';  # needed by Apache2::Connection::XForwardedFor
+requires 'Apache2::Connection::XForwardedFor';
+
+# GS1 Sunrise 2027
+requires 'GS1::SyntaxEngine::FFI';
+requires 'Imager::zxing';
+requires 'Imager::File::AVIF';
+requires 'Imager::File::HEIF';
+requires 'Imager::File::JPEG';
+requires 'Imager::File::PNG';
+requires 'Imager::File::WEBP';
+
 on 'test' => sub {
   requires 'Test::More', '>= 1.302186, < 2.0';
   requires 'Test::MockModule';
@@ -95,6 +117,12 @@ on 'test' => sub {
   requires 'IO::Capture::Stderr::Extended';
   requires 'HTTP::CookieJar::LWP';
   requires 'File::Tail';
+  requires 'Test2::Plugin::UTF8';
+  requires 'Devel::Cover';
+  requires 'Devel::Cover::Report::Codecov';
+  requires 'Devel::Cover::Report::Codecovbash';
+  requires 'Test::Fake::HTTPD';
+  requires 'URL::Encode';
 };
 
 on 'develop' => sub {
@@ -103,6 +131,9 @@ on 'develop' => sub {
   requires 'Apache::DB', '>= 0.18, < 1.00'; # old non-working version also available as the Debian package libapache-db-perl 0.14
   requires 'Perl::Tidy';
   requires 'Perl::Critic';
+  requires 'Devel::Cover';
+  requires 'Devel::Cover::Report::Codecov';
+  requires 'Devel::Cover::Report::Codecovbash';
 };
 
 feature "off_server_dev_tools", "Optional development tools" => sub {

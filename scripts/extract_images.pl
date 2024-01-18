@@ -3,7 +3,7 @@
 # This file is part of Product Opener.
 #
 # Product Opener
-# Copyright (C) 2011-2019 Association Open Food Facts
+# Copyright (C) 2011-2023 Association Open Food Facts
 # Contact: contact@openfoodfacts.org
 # Address: 21 rue des Iles, 94100 Saint-Maur des Fossés, France
 #
@@ -37,6 +37,7 @@ TXT
 use CGI::Carp qw(fatalsToBrowser);
 
 use ProductOpener::Config qw/:all/;
+use ProductOpener::Paths qw/:all/;
 use ProductOpener::Store qw/:all/;
 use ProductOpener::Index qw/:all/;
 use ProductOpener::Display qw/:all/;
@@ -91,7 +92,7 @@ while (my $product_ref = $cursor->next) {
 
 	if (defined $product_ref) {
 
-		my $dir = "$www_root/images/products/$path";
+		my $dir = "$BASE_DIRS{PRODUCTS_IMAGES}/$path";
 
 		# Store the highest version number for each imageid
 

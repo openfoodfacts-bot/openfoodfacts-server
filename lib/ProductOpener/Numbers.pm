@@ -1,7 +1,7 @@
 # This file is part of Product Opener.
 #
 # Product Opener
-# Copyright (C) 2011-2020 Association Open Food Facts
+# Copyright (C) 2011-2023 Association Open Food Facts
 # Contact: contact@openfoodfacts.org
 # Address: 21 rue des Iles, 94100 Saint-Maur des Fossés, France
 #
@@ -40,12 +40,30 @@ BEGIN {
 
 		&remove_insignificant_digits
 		&convert_string_to_number
+		$number_regexp
 
 	);    # symbols to export on request
 	%EXPORT_TAGS = (all => [@EXPORT_OK]);
 }
 
 use vars @EXPORT_OK;
+
+=head1 VARIABLES
+
+=head2 $number_regexp
+
+Regular expression to match something that looks like a number:
+32
+32.5
+0.5
+.5
+32,5
+
+=cut
+
+# dot followed by digits,
+# or digits followed by a dot or a comma, optionnaly followed by 0 or more digits
+$number_regexp = '\.\d+|\d+(?:(?:\,|\.)\d+)?';
 
 =head1 FUNCTIONS
 

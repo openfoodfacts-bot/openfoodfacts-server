@@ -3,7 +3,7 @@
 # This file is part of Product Opener.
 #
 # Product Opener
-# Copyright (C) 2011-2019 Association Open Food Facts
+# Copyright (C) 2011-2023 Association Open Food Facts
 # Contact: contact@openfoodfacts.org
 # Address: 21 rue des Iles, 94100 Saint-Maur des Fossés, France
 #
@@ -28,6 +28,7 @@ binmode(STDERR, ":encoding(UTF-8)");
 use CGI::Carp qw(fatalsToBrowser);
 
 use ProductOpener::Config qw/:all/;
+use ProductOpener::Paths qw/:all/;
 use ProductOpener::Store qw/:all/;
 use ProductOpener::Display qw/:all/;
 use ProductOpener::Users qw/:all/;
@@ -80,10 +81,9 @@ if ($action eq "process") {
 		$log->debug("processing upload form", {filename => $filename, file_id => $file_id, extension => $extension})
 			if $log->is_debug();
 
-		(-e "$data_root/import_files") or mkdir("$data_root/import_files", 0755);
-		(-e "$data_root/import_files/${Owner_id}") or mkdir("$data_root/import_files/${Owner_id}", 0755);
+		ensure_dir_created("$BASE_DIRS{IMPORT_FILES}/${Owner_id}") or display_error_and_exit("Missing path", 503);
 
-		open(my $out, ">", "$data_root/import_files/${Owner_id}/$file_id.$extension");
+		open(my $out, ">", "$BASE_DIRS{IMPORT_FILES}/${Owner_id}/$file_id.$extension");
 		while (my $chunk = <$file>) {
 			print $out $chunk;
 		}
@@ -93,7 +93,7 @@ if ($action eq "process") {
 
 		# Keep track of uploaded files attributes and status
 
-		my $import_files_ref = retrieve("$data_root/import_files/${Owner_id}/import_files.sto");
+		my $import_files_ref = retrieve("$BASE_DIRS{IMPORT_FILES}/${Owner_id}/import_files.sto");
 		if (not defined $import_files_ref) {
 			$import_files_ref = {};
 		}
@@ -104,7 +104,7 @@ if ($action eq "process") {
 			uploaded_t => $uploaded_t,
 		};
 
-		store("$data_root/import_files/${Owner_id}/import_files.sto", $import_files_ref);
+		store("$BASE_DIRS{IMPORT_FILES}/${Owner_id}/import_files.sto", $import_files_ref);
 
 	}
 	else {

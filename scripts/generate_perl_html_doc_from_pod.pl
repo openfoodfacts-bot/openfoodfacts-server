@@ -3,7 +3,7 @@
 # This file is part of Product Opener.
 #
 # Product Opener
-# Copyright (C) 2011-2019 Association Open Food Facts
+# Copyright (C) 2011-2023 Association Open Food Facts
 # Contact: contact@openfoodfacts.org
 # Address: 21 rue des Iles, 94100 Saint-Maur des Fossés, France
 #
@@ -27,10 +27,7 @@ for documentation in POD format to generate documentation in HTML files.
 
 =head1 SYNOPSIS
 
-The script needs to be run from the root of the Product Opener installation
-(e.g. /srv/off/)
-
-    ./scripts/generate_perl_html_doc_from_pod.pl
+The script is run by C<generate-doc.yml>
 
 =cut
 
@@ -38,6 +35,23 @@ use Modern::Perl '2017';
 use utf8;
 
 use Pod::Simple::HTMLBatch;
+use Getopt::Long;
+
+my $usage = <<TXT
+
+generate_perl_html_doc_from_pod.pl scans the Perl source code of Product Opener
+for documentation in POD format to generate documentation in HTML files.
+Usage:
+
+checkbot.pl target_directory
+
+TXT
+	;
+
+# Beginning
+GetOptions() or die("Error in command line arguments:\n\n$usage");
+(scalar @ARGV) == 1 or die("Error in command line arguments:\n\n$usage");
+my $target_dir = pop @ARGV;
 
 my $batchconv = Pod::Simple::HTMLBatch->new;
 
@@ -53,4 +67,4 @@ $batchconv->contents_page_start('
 ');
 $batchconv->css_flurry(0);
 $batchconv->javascript_flurry(0);
-$batchconv->batch_convert(["cgi", "scripts", "lib"], "html/files/doc/perl");
+$batchconv->batch_convert(["cgi", "scripts", "lib"], $target_dir);

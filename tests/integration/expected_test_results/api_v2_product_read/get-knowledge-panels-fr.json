@@ -57,7 +57,7 @@
                            "values" : [
                               {
                                  "icon_url" : "http://static.openfoodfacts.localhost/images/icons/dist/packaging.svg",
-                                 "text" : "Conditionnement"
+                                 "text" : "Emballage"
                               },
                               {
                                  "percent" : 3.820792696782,
@@ -128,6 +128,13 @@
                {
                   "element_type" : "text",
                   "text_element" : {
+                     "html" : "Sélectionnez un pays pour inclure l'impact total du transport.",
+                     "type" : "warning"
+                  }
+               },
+               {
+                  "element_type" : "text",
+                  "text_element" : {
                      "html" : "L'<a href=\"http://world-fr.openfoodfacts.localhost/ecoscore\">Eco-Score</a> est un score expérimental qui synthétise les impacts environnementaux des produits alimentaires."
                   }
                },
@@ -177,8 +184,8 @@
             "level" : "info",
             "title_element" : {
                "grade" : "c",
-               "icon_url" : "http://static.openfoodfacts.localhost/images/attributes/ecoscore-c.svg",
-               "title" : "Éco-Score C - Impact modéré sur l'environnement",
+               "icon_url" : "http://static.openfoodfacts.localhost/images/attributes/dist/ecoscore-c.svg",
+               "title" : "Eco-Score C - Impact modéré sur l'environnement",
                "type" : "grade"
             },
             "topics" : [
@@ -240,7 +247,7 @@
                            "values" : [
                               {
                                  "icon_url" : "http://static.openfoodfacts.localhost/images/icons/dist/packaging.svg",
-                                 "text" : "Conditionnement"
+                                 "text" : "Emballage"
                               },
                               {
                                  "percent" : 3.1173493176578,
@@ -296,6 +303,9 @@
             "level" : "info",
             "title_element" : {
                "grade" : "b",
+               "icon_color_from_evaluation" : true,
+               "icon_size" : "small",
+               "icon_url" : "http://static.openfoodfacts.localhost/images/icons/dist/lca.svg",
                "subtitle" : "Catégorie : Biscuit sec, sans précision",
                "title" : "Impact moyen des produits de la même catégorie : B (Score: 69/100)",
                "type" : "grade"
@@ -490,6 +500,7 @@
             "level" : "info",
             "title_element" : {
                "grade" : "c",
+               "icon_url" : "http://static.openfoodfacts.localhost/images/attributes/dist/ecoscore-c.svg",
                "subtitle" : "Produit : Some product - 100 g",
                "title" : "Impact pour ce produit: C (Score: 46/100)",
                "type" : "grade"
@@ -522,7 +533,7 @@
                      "panel_ids" : [
                         "packaging_recycling"
                      ],
-                     "title" : "Conditionnement"
+                     "title" : "Emballage"
                   }
                },
                {
@@ -624,7 +635,7 @@
                      "edit_field_id" : "ingredients_text_en",
                      "edit_field_type" : "ingredients_text",
                      "edit_field_value" : "apple, milk, eggs, palm oil",
-                     "html" : "apple, <span class=\"allergen\">milk</span>, <span class=\"allergen\">eggs</span>, palm oil",
+                     "html" : "<span class=\"allergen\">apple</span>, <span class=\"allergen\">milk</span>, <span class=\"allergen\">eggs</span>, palm oil",
                      "language" : "Anglais",
                      "lc" : "en"
                   }
@@ -632,7 +643,7 @@
                {
                   "element_type" : "text",
                   "text_element" : {
-                     "html" : "<strong>Allergènes :</strong> \n                    Œufs, Lait\n                "
+                     "html" : "<strong>Allergènes :</strong> \n                    en:Apple, Œufs, Lait\n                "
                   }
                }
             ],
@@ -688,7 +699,7 @@
                {
                   "element_type" : "text",
                   "text_element" : {
-                     "html" : "<span>apple</span>, <span>milk</span>, <span>eggs</span>, <span>palm oil</span>"
+                     "html" : "en: <span>apple</span>, <span>milk</span>, <span>eggs</span>, <span>palm oil</span>"
                   }
                },
                {
@@ -803,7 +814,7 @@
             ],
             "level" : "info",
             "title_element" : {
-               "icon_url" : "http://static.openfoodfacts.localhost/images/attributes/nova-group-3.svg",
+               "icon_url" : "http://static.openfoodfacts.localhost/images/attributes/dist/nova-group-3.svg",
                "title" : "Aliments transformés"
             },
             "topics" : [
@@ -815,23 +826,21 @@
                {
                   "element_type" : "text",
                   "text_element" : {
-                     "html" : "Les données nutritionnelles du produit doivent être spécifiées afin de calculer le Nutri-Score.\n                    ",
+                     "html" : "Attention : les valeurs nutritionnelles ne sont pas précisées. Elles ont été estimées à partir de la liste des ingrédients.\n                    ",
                      "type" : "warning"
                   }
                },
                {
-                  "action_element" : {
-                     "actions" : [
-                        "add_nutrition_facts"
-                     ],
-                     "html" : "Pourriez-vous ajouter les informations nécessaires pour calculer le Nutri-Score ?"
-                  },
-                  "element_type" : "action"
+                  "element_type" : "text",
+                  "text_element" : {
+                     "html" : "Avertissement : Le taux de fruits, légumes et noix n'est pas indiqué sur l'étiquette, il a été estimé en fonction de la liste des ingrédients : 62\n                    ",
+                     "type" : "warning"
+                  }
                },
                {
                   "element_type" : "text",
                   "text_element" : {
-                     "html" : ""
+                     "html" : "<!-- start templates/web/pages/product/includes/nutriscore_details.tt.html -->\n\n<p>Ce produit n'est pas considéré comme une boisson pour le calcul du Nutri-Score.</p>\n\n\n\n\n\n  <p> \n    <strong>Points positifs : 3</strong> \n  </p>\n\n  <ul>\n    \n      <li>\n        <strong>Protéines :\n1&nbsp;</strong>/&nbsp;5\n(valeur : 1.974375, \n        valeur arrondie : 1.97)\n      </li>\n    \n      <li>\n        <strong>Fibre :\n0&nbsp;</strong>/&nbsp;5\n(valeur : 0.8125, \n        valeur arrondie : 0.81)\n      </li>\n    \n      <li>\n        <strong>Fruits, légumes, noix et huiles de colza / noix / olive :\n2&nbsp;</strong>/&nbsp;5\n(valeur : 62.5, \n        valeur arrondie : 62.5)\n      </li>\n    \n  </ul>\n\n\n\n  <p> \n    <strong>Points négatifs : 6</strong> \n  </p>\n\n  <ul>\n    \n      <li>\n        <strong>Énergie :\n1&nbsp;</strong>/&nbsp;10\n(valeur : 558.75, \n        valeur arrondie : 558.8)\n      </li>\n    \n      <li>\n        <strong>Sucres :\n1&nbsp;</strong>/&nbsp;10\n(valeur : 7.2621875, \n        valeur arrondie : 7.26)\n      </li>\n    \n      <li>\n        <strong>Graisses saturées :\n4&nbsp;</strong>/&nbsp;10\n(valeur : 4.903125, \n        valeur arrondie : 4.9)\n      </li>\n    \n      <li>\n        <strong>Sodium :\n0&nbsp;</strong>/&nbsp;10\n(valeur : 19.725, \n        valeur arrondie : 19.7)\n      </li>\n    \n  </ul>\n\n\n\n<p>Les points pour les protéines sont comptés car les points négatifs sont inférieurs à 11.</p>\n\n<p>\n  <strong>Score nutritionnel : 3</strong>\n  (6 - 3)\n</p>\n<p><strong>Nutri-Score : C</strong></p>\n\n<!-- end templates/web/pages/product/includes/nutriscore_details.tt.html -->"
                   }
                },
                {
@@ -843,10 +852,9 @@
             ],
             "level" : "info",
             "title_element" : {
-               "grade" : "unknown",
-               "icon_url" : "http://static.openfoodfacts.localhost/images/attributes/nutriscore-unknown.svg",
-               "subtitle" : "Données nutritionnelles manquantes",
-               "title" : "Données manquantes pour calculer le Nutri-Score",
+               "grade" : "c",
+               "icon_url" : "http://static.openfoodfacts.localhost/images/attributes/dist/nutriscore-c.svg",
+               "title" : "Qualité nutritionnelle moyenne",
                "type" : "grade"
             },
             "topics" : [
@@ -994,10 +1002,10 @@
                                  "text" : "Fruits‚ légumes‚ noix et huiles de colza‚ noix et olive (estimation par analyse de la liste des ingrédients)"
                               },
                               {
-                                 "text" : "25 %"
+                                 "text" : "62,5 %"
                               },
                               {
-                                 "text" : "25 %"
+                                 "text" : "62,5 %"
                               }
                            ]
                         }
@@ -1027,6 +1035,15 @@
                      "html" : "\n                Les origines des ingrédients de ce produit ne sont pas renseignées.<br><br>\n                Si elles sont indiquées sur l'emballage, vous pouvez modifier la fiche produit et les ajouter.<br><br>\n                Si vous êtes le fabricant de ce produit, vous pouvez nous transmettre les informations avec notre <a href=\"https://fr.pro.openfoodfacts.org\">plateforme gratuite pour les producteurs</a>.\n                    ",
                      "type" : "warning"
                   }
+               },
+               {
+                  "action_element" : {
+                     "actions" : [
+                        "add_origins"
+                     ],
+                     "html" : "Ajouter les origines des ingrédients pour ce produit"
+                  },
+                  "element_type" : "action"
                }
             ],
             "evaluation" : "unknown",
@@ -1042,13 +1059,13 @@
                "environment"
             ]
          },
-         "packaging_recycling" : {
+         "packaging_components" : {
             "elements" : [
                {
                   "element_type" : "text",
                   "text_element" : {
                      "evaluation" : "good",
-                     "html" : "\n                        \n                            \n                                <strong>Boîte</strong>\n                                    \n                                        (Bois)\n                                    \n                                    <br>\n                            \n                        \n                            \n                        \n                            \n                                <strong>Couvercle</strong>\n                                    \n                                        (Acier)\n                                    \n                                    <br>\n                            \n                        \n                            \n                        \n                        ",
+                     "html" : "\n                        \n                            \n                                1 x \n                                <strong>\n                                    Boîte\n                                    \n                                </strong>\n                                    \n                                        (Bois)\n                                    \n                                    <br>\n                            \n                        \n                            \n                        \n                            \n                                3 x \n                                <strong>\n                                    Couvercle\n                                    \n                                </strong>\n                                    \n                                        (Acier)\n                                    \n                                    <br>\n                            \n                        \n                            \n                        \n                        ",
                      "icon_alt" : "Recycler",
                      "icon_color_from_evaluation" : true,
                      "icon_url" : "http://static.openfoodfacts.localhost/images/icons/dist/recycle-variant.svg",
@@ -1059,11 +1076,150 @@
                   "element_type" : "text",
                   "text_element" : {
                      "evaluation" : "bad",
-                     "html" : "\n                        \n                            \n                        \n                            \n                        \n                            \n                        \n                            \n                                <strong>Film</strong>\n                                    \n                                        (Plastique)\n                                    \n                                    <br>\n                            \n                        \n                        ",
+                     "html" : "\n                        \n                            \n                        \n                            \n                        \n                            \n                        \n                            \n                                1 x \n                                <strong>\n                                    Film\n                                    \n                                </strong>\n                                    \n                                        (Plastique)\n                                    \n                                    <br>\n                            \n                        \n                        ",
                      "icon_alt" : "Jeter",
                      "icon_color_from_evaluation" : true,
                      "icon_url" : "http://static.openfoodfacts.localhost/images/icons/dist/delete.svg",
                      "type" : "summary"
+                  }
+               },
+               {
+                  "element_type" : "text",
+                  "text_element" : {
+                     "evaluation" : "neutral",
+                     "html" : "\n                        \n                            \n                        \n                            \n                                6 x \n                                <strong>\n                                    Bouteille\n                                    25cl \n                                </strong>\n                                    \n                                        (Verre)\n                                    \n                                    <br>\n                            \n                        \n                            \n                        \n                            \n                        \n                        ",
+                     "icon_alt" : "Inconnu",
+                     "icon_color_from_evaluation" : true,
+                     "icon_url" : "http://static.openfoodfacts.localhost/images/icons/dist/help.svg",
+                     "type" : "summary"
+                  }
+               }
+            ],
+            "expanded" : true,
+            "level" : "info",
+            "title_element" : {
+               "title" : "Elements d'emballage"
+            },
+            "topics" : [
+               "environment"
+            ]
+         },
+         "packaging_materials" : {
+            "elements" : [
+               {
+                  "element_type" : "table",
+                  "table_element" : {
+                     "columns" : [
+                        {
+                           "text" : "Matière",
+                           "type" : "text"
+                        },
+                        {
+                           "text" : "%",
+                           "type" : "text"
+                        },
+                        {
+                           "text" : "Poids de l'emballage",
+                           "type" : "text"
+                        },
+                        {
+                           "text" : "Poids de l'emballage pour 100 g de produit",
+                           "type" : "text"
+                        }
+                     ],
+                     "id" : "packaging_materials",
+                     "rows" : [
+                        {
+                           "values" : [
+                              {
+                                 "text" : "Plastique"
+                              },
+                              {
+                                 "text" : ""
+                              },
+                              {
+                                 "text" : ""
+                              },
+                              {
+                                 "text" : ""
+                              }
+                           ]
+                        },
+                        {
+                           "values" : [
+                              {
+                                 "text" : "Verre"
+                              },
+                              {
+                                 "text" : ""
+                              },
+                              {
+                                 "text" : ""
+                              },
+                              {
+                                 "text" : ""
+                              }
+                           ]
+                        },
+                        {
+                           "values" : [
+                              {
+                                 "text" : "Métal"
+                              },
+                              {
+                                 "text" : ""
+                              },
+                              {
+                                 "text" : ""
+                              },
+                              {
+                                 "text" : ""
+                              }
+                           ]
+                        },
+                        {
+                           "style" : "font-weight: bold",
+                           "values" : [
+                              {
+                                 "text" : "Total"
+                              },
+                              {
+                                 "text" : ""
+                              },
+                              {
+                                 "text" : ""
+                              },
+                              {
+                                 "text" : ""
+                              }
+                           ]
+                        }
+                     ],
+                     "title" : "Matériaux d'emballage"
+                  }
+               }
+            ],
+            "expanded" : true,
+            "level" : "info",
+            "title_element" : {
+               "title" : "Matériaux d'emballage"
+            },
+            "topics" : [
+               "environment"
+            ]
+         },
+         "packaging_recycling" : {
+            "elements" : [
+               {
+                  "element_type" : "panel",
+                  "panel_element" : {
+                     "panel_id" : "packaging_components"
+                  }
+               },
+               {
+                  "element_type" : "panel",
+                  "panel_element" : {
+                     "panel_id" : "packaging_materials"
                   }
                }
             ],

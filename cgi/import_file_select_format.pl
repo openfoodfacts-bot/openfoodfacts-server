@@ -3,7 +3,7 @@
 # This file is part of Product Opener.
 #
 # Product Opener
-# Copyright (C) 2011-2019 Association Open Food Facts
+# Copyright (C) 2011-2023 Association Open Food Facts
 # Contact: contact@openfoodfacts.org
 # Address: 21 rue des Iles, 94100 Saint-Maur des Fossés, France
 #
@@ -28,6 +28,7 @@ binmode(STDERR, ":encoding(UTF-8)");
 use CGI::Carp qw(fatalsToBrowser);
 
 use ProductOpener::Config qw/:all/;
+use ProductOpener::Paths qw/:all/;
 use ProductOpener::Store qw/:all/;
 use ProductOpener::Display qw/:all/;
 use ProductOpener::Users qw/:all/;
@@ -63,7 +64,7 @@ if (not defined $Owner_id) {
 	display_error_and_exit(lang("no_owner_defined"), 200);
 }
 
-my $import_files_ref = retrieve("$data_root/import_files/${Owner_id}/import_files.sto");
+my $import_files_ref = retrieve("$BASE_DIRS{IMPORT_FILES}/${Owner_id}/import_files.sto");
 if (not defined $import_files_ref) {
 	$import_files_ref = {};
 }
@@ -78,7 +79,7 @@ my $extension;
 
 if (defined $import_files_ref->{$file_id}) {
 	$extension = $import_files_ref->{$file_id}{extension};
-	$file = "$data_root/import_files/${Owner_id}/$file_id.$extension";
+	$file = "$BASE_DIRS{IMPORT_FILES}/${Owner_id}/$file_id.$extension";
 }
 else {
 	$log->debug("File not found in import_files.sto", {file_id => $file_id}) if $log->is_debug();

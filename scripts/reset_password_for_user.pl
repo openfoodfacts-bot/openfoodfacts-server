@@ -3,7 +3,7 @@
 # This file is part of Product Opener.
 #
 # Product Opener
-# Copyright (C) 2011-2019 Association Open Food Facts
+# Copyright (C) 2011-2023 Association Open Food Facts
 # Contact: contact@openfoodfacts.org
 # Address: 21 rue des Iles, 94100 Saint-Maur des Fossés, France
 #
@@ -26,6 +26,7 @@ use utf8;
 use CGI::Carp qw(fatalsToBrowser);
 
 use ProductOpener::Config qw/:all/;
+use ProductOpener::Paths qw/:all/;
 use ProductOpener::Store qw/:all/;
 use ProductOpener::Index qw/:all/;
 use ProductOpener::Display qw/:all/;
@@ -39,6 +40,6 @@ use URI::Escape::XS;
 use Encode;
 
 my $userid = $ARGV[0];
-my $user_ref = retrieve("$data_root/users/$userid.sto");
+my $user_ref = retrieve("$BASE_DIRS{USERS}/$userid.sto");
 $user_ref->{encrypted_password} = create_password_hash(encode_utf8(decode utf8 => $ARGV[1]));
-store("$data_root/users/$userid.sto", $user_ref);
+store("$BASE_DIRS{USERS}/$userid.sto", $user_ref);

@@ -3,7 +3,7 @@
 # This file is part of Product Opener.
 #
 # Product Opener
-# Copyright (C) 2011-2020 Association Open Food Facts
+# Copyright (C) 2011-2023 Association Open Food Facts
 # Contact: contact@openfoodfacts.org
 # Address: 21 rue des Iles, 94100 Saint-Maur des Fossés, France
 #
@@ -27,6 +27,7 @@ use CGI::Carp qw(fatalsToBrowser);
 
 use ProductOpener::Config qw/:all/;
 use ProductOpener::Store qw/:all/;
+use ProductOpener::Paths qw/:all/;
 use ProductOpener::Index qw/:all/;
 use ProductOpener::Display qw/:all/;
 use ProductOpener::Tags qw/:all/;
@@ -71,11 +72,11 @@ while (my $product_ref = $cursor->next) {
 
 		#get_products_collection()->delete_one({"code" => $code});
 
-		# index_product($product_ref);
+		# compute_keywords($product_ref);
 
 		# Store
 
-		# store("$data_root/products/$path/product.sto", $product_ref);
+		# store("$BASE_DIRS{PRODUCTS}/$path/product.sto", $product_ref);
 		# get_products_collection()->save($product_ref);
 	}
 }

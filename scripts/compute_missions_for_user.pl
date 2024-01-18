@@ -3,7 +3,7 @@
 # This file is part of Product Opener.
 #
 # Product Opener
-# Copyright (C) 2011-2019 Association Open Food Facts
+# Copyright (C) 2011-2023 Association Open Food Facts
 # Contact: contact@openfoodfacts.org
 # Address: 21 rue des Iles, 94100 Saint-Maur des Fossés, France
 #
@@ -26,6 +26,7 @@ use Modern::Perl '2017';
 use utf8;
 
 use ProductOpener::Config qw/:all/;
+use ProductOpener::Paths qw/:all/;
 use ProductOpener::Store qw/:all/;
 use ProductOpener::Index qw/:all/;
 use ProductOpener::Display qw/:all/;
@@ -48,11 +49,11 @@ use JSON::PP;
 
 my $user_id = $ARGV[0];
 
-my $user_ref = retrieve("$data_root/users/${user_id}.sto");
+my $user_ref = retrieve("$BASE_DIRS{USERS}/${user_id}.sto");
 
 if (defined $user_ref) {
 	ProductOpener::Missions::compute_missions_for_user($user_ref);
-	# store("$data_root/users/${user_id}.sto", $user_ref);
+	# store("$BASE_DIRS{USERS}/${user_id}.sto", $user_ref);
 }
 else {
 	print "user_id: $user_id not found\n";

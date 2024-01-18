@@ -3,7 +3,7 @@
 # This file is part of Product Opener.
 #
 # Product Opener
-# Copyright (C) 2011-2020 Association Open Food Facts
+# Copyright (C) 2011-2023 Association Open Food Facts
 # Contact: contact@openfoodfacts.org
 # Address: 21 rue des Iles, 94100 Saint-Maur des Fossés, France
 #
@@ -26,6 +26,7 @@ use utf8;
 use CGI::Carp qw(fatalsToBrowser);
 
 use ProductOpener::Config qw/:all/;
+use ProductOpener::Paths qw/:all/;
 use ProductOpener::Store qw/:all/;
 use ProductOpener::Index qw/:all/;
 use ProductOpener::Display qw/:all/;
@@ -139,7 +140,7 @@ foreach my $l (values %lang_lc) {
 		$total++;
 	}
 
-	open(my $OUT, ">:encoding(UTF-8)", "$www_root/data/$lang.openfoodfacts.org.products.battlefood.10.json");
+	open(my $OUT, ">:encoding(UTF-8)", "$BASE_DIRS{PUBLIC_DATA}/$lang.openfoodfacts.org.products.battlefood.10.json");
 	my $data = encode_json(\@products);
 	$data =~ s/\.100g/_100g/g;
 	print $OUT $data;
