@@ -18,7 +18,7 @@
       
       
       <link rel="icon" href="../../assets/images/favicon.png">
-      <meta name="generator" content="mkdocs-1.5.3, mkdocs-material-9.5.13">
+      <meta name="generator" content="mkdocs-1.5.3, mkdocs-material-9.5.15">
     
     
       
@@ -719,7 +719,7 @@
         
   
   <span class="md-ellipsis">
-    How to using Gitpod for Remote Development
+    How to use Gitpod for Remote Development
   </span>
   
 
@@ -820,11 +820,11 @@
   
   
     <li class="md-nav__item">
-      <a href="../explain-nutition-data/" class="md-nav__link">
+      <a href="../explain-nutrition-data/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
-    Explain nutition data
+    Explain nutrition data
   </span>
   
 
@@ -1030,7 +1030,7 @@ Only the public_repo scope is needed.</p>
 <h1 id="considerations">Considerations<a class="headerlink" href="#considerations" title="Permanent link">#</a></h1>
 <p>In maintaining this code be aware of the following complications...</p>
 <h2 id="circular-dependencies">Circular Dependencies<a class="headerlink" href="#circular-dependencies" title="Permanent link">#</a></h2>
-<p>There is a cicular dependency between taxonomies, languages and foods. The foods library is used to create the source for the nutrient_levels taxonomy, which uses transalations from languages. However, languages depends on the languages taxonomy...</p>
+<p>There is a circular dependency between taxonomies, languages and foods. The foods library is used to create the source for the nutrient_levels taxonomy, which uses translations from languages. However, languages depends on the languages taxonomy...</p>
 <p>This is currently resolved by building the taxonomy on the fly if it is requested but not currently built.</p>
 <h2 id="taxonomy-dependencies">Taxonomy Dependencies<a class="headerlink" href="#taxonomy-dependencies" title="Permanent link">#</a></h2>
 <p>Some taxonomies perform lookups on others, e.g. additives_classes are referenced by additives, so the referenced taxonomy needs to be built first. The build order is determined in the Config_off.pm file.</p>
@@ -1083,7 +1083,7 @@ Only the public_repo scope is needed.</p>
     <script id="__config" type="application/json">{"base": "../..", "features": [], "search": "../../assets/javascripts/workers/search.b8dbb3d2.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
     
     
-      <script src="../../assets/javascripts/bundle.c8d2eff1.min.js"></script>
+      <script src="../../assets/javascripts/bundle.bd41221c.min.js"></script>
       
     
   </body>
