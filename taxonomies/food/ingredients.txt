@@ -2392,6 +2392,8 @@ fr:Beurre Charentes-Poitou
 
 <en:butter
 fr:beurre de cuisine, beurre cuisinier
+en:cooking butter
+vegan:en:no
 # ingredient/fr:beurre-de-cuisine has 127 products in french @2019-07-10
 
 # description:en:FRESH BUTTER
@@ -83212,6 +83214,7 @@ nl:gedroogd ei-eiwit
 <en:chicken egg white
 nl:scharrelkipeiwit, vrije uitloop kippenei-eiwit, kippenei-eiwit van scharreleieren
 
+# en:processing:powder
 <en:powdered egg white
 nl:vrije-uitloopei-eiwitpoeder, vrije uitloopeiwitpoeder
 
@@ -83247,10 +83250,6 @@ ru:продукты яичные, яичные-продукты
 # en:processing:powder
 <en:powdered egg white
 nl:scharrelei-eiwitpoeder, scharreleiwitpoeder
-
-# en:processing:powder
-<en:powdered egg white
-nl:vrije-uitloopei-eiwitpoeder, vrije uitloopeiwitpoeder
 
 <en:powdered egg white
 fr:blanc d'oeuf en poudre de poules élevées au sol
