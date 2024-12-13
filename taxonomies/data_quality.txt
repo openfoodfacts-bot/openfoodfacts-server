@@ -1326,6 +1326,7 @@ fix_action:en: add_ingredients_text
 < en:Ingredients warnings
 en: All but one ingredient with specified percent
 fr: Tous les ingrédients saufs un avec des pourcentages spécifiés
+description:en: C'est important pour réussir à comprendre ce qui fait que l'on ne peut pas faire ce que l'on doit faire
 #description:en:
 
 < en:Ingredients warnings
