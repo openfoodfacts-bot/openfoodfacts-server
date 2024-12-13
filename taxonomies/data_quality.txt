@@ -1127,7 +1127,10 @@ description:en: These two categories cannot both appear on the same product.
 
 ## --------------- Then data quality warnings
 
-en: Data quality warnings
+
+## --------------- Then data quality warnings
+
+en: data quality potential problems, Data quality warnings
 description:en: Possible error on data detected. Might be a false alert.
 description:de: Möglicher Datenfehler erkannt. Könnte ein falscher Alarm sein.
 description:es: Posible error en los datos detectado. Podría ser una alerta falsa.
@@ -1300,8 +1303,12 @@ fix_action:en: add_quantity
 
 ### Fibers
 
-< en:Data quality warnings
-en: Fibers warnings
+
+
+### Fibers
+
+< en:data quality potential problems
+en: Fibers warnings, fiber warnings
 description:en: There might be an issue with the fibers nutrient
 fix_action:en: add_nutrition_facts
 
