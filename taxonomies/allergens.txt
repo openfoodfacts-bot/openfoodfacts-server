@@ -59,7 +59,7 @@ th: กลูเต็น, ข้าวสาลี, ข้าวไร, บา�
 zh: 麸质
 wikidata:en: Q188251
 
-en: crustaceans, crab, lobster, crayfish, prawn, shrimp
+en: lobster, crustaceans, crab, crayfish, prawn, shrimp
 ar: قشريات
 bg: ракообразни
 cs: korýši
@@ -267,9 +267,9 @@ sv: soja, sojabönor, sojalecitin, sojabönolja, sojaprotein, sojasås, sojamjö
 th: ถั่วเหลือง
 zh: 大豆类制品, 黄豆，大豆，酱油
 
-en: milk, lactose, whey, dairy, butter, buttermilk, cream, yogurt, cheese, yoghurt, parmigiano reggiano, grana padano, milk chocolate coating, milk powder, milk protein
+en: milk, lactose, whey, dairy, butter, buttermilk, cream, yogurt, cheese, yoghurt, parmigiano reggiano, grana padano, milk powder, milk protein
 ar: حليبب, لاكتوز
-bg: суроватка, млечна, мляко, лактоза, млечни продукти
+bg: суроватка, млечна, лактоза, млечни продукти
 cs: mléko, laktózy
 da: mælk, laktose, mælkepulver, skummetmælk, skummetmælkspulver, sødmælk, sødmælkspulver, komælk, fløde, piskefløde, mælkefedt, mælkeproteiner, mælkesukker, vallepulver, kærnemælk, letmælk, ost, emmentaler, cheddarost, ostepuler
 de: Milch, Bergkäse, Blauschimmelkäse, Butter, Buttermilch, Buttermilchpulver, Butterreinfett, Camembert, Cheddar, Edamer, Edamer-Käse, Emmentaler, Frischkäse, Gorgonzola, Gouda, Hartkäse, Joghurt, Joghurtpulver, Käse, Käsepulver, Kondensmilch, Kuhmilch, Kuhvollmilch, Laktose, Rohmilch, Milchzucker, Milcheiweiß, Milchpulver, Milcherzeugnisse, Milcherzeugnissen, Magermilchpulver, Magermilchjoghurt, Magermilchkonzentrat, Magermilchjoghurtpulver, Magermilch, Magerquark, Molkenpulver, Molkenerzeugnis, Molkeneiweißkäse, Milchschokolade, Mozzarella, Pecorino, Quark, Ricotta, Speisequark, Sahne, Sahnepulver, Sahnejoghurt, Sauermilchquark, Sauerrahm, Rahm, Rahmjoghurt, Sauermilch, Sauerrahmpulver, Schlagsahne, Süssmolkenpulver, Süßmolkenpulver, Vollmilch, Vollmilchschokolade, Vollmilchpulver, Ziegenmilch, Süßmolke, Süssmolke, Butterfett, Kondensmagermilch, Joghurterzeugnis, Schafsmilch, Schafmilch, Käsereimilch, Milchfett, Milchprotein, Molke, Sauermolke, Molkeneiweiß, Molkeneiweiss, Molkepulver, Milcheiweißerzeugnis, Milcheiweisserzeugnis, Magermilchpulverzusatz, Molkenprotein, Buttereinfett, Süßmolkepulver, Süssmolkepulver, Vollmilchschokoladeüberzug, Milchbestandteilen, Milchprodukten, Milchprodukt, weiteren Milchprodukten
