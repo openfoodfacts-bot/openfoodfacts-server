@@ -92865,7 +92865,7 @@ fr: Vermicelles de blé dur
 es: Fideuá de trigo duro
 
 < en:Durum wheat pasta
-< fr:Torsades
+< af:Fusilli
 es: Fusilli de trigo duro, Hélices de trigo duro
 fr: Fusilli de blé dur, Hélices de blé dur, torsades de blé dur
 nl: Durum tarwefusilli
