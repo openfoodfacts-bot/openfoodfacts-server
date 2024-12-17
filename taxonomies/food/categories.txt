@@ -19769,134 +19769,134 @@ wikidata:en: Q3559359
 < en:Burgundy wines
 < en:Red wines
 < en:White wines
-fr: Pernand-Vergelesses
+fr: Pernand-Vergelesses AOC, Pernand-Vergelesses
 origins:en: en:france, en:burgundy
 protected_name_type:en: pdo
 wikidata:en: Q3375509
 
-< fr:Pernand-Vergelesses
+< fr:Pernand-Vergelesses AOC
 fr: Pernand-Vergelesses blanc
 wikidata:en: Q42863192
 
-< fr:Pernand-Vergelesses
+< fr:Pernand-Vergelesses AOC
 fr: Pernand-Vergelesses Côte de Beaune
 origins:en: en:france, en:burgundy
 protected_name_type:en: pdo
 #wikidata:en:
 
-< fr:Pernand-Vergelesses
+< fr:Pernand-Vergelesses AOC
 fr: Pernand-Vergelesses premier cru
 origins:en: en:france, en:burgundy
 protected_name_type:en: pdo
 #wikidata:en:
 
-< fr:Pernand-Vergelesses
+< fr:Pernand-Vergelesses AOC
 fr: Pernand-Vergelesses premier cru Clos Berthet, Pernand-Vergelesses Clos Berthet
 origins:en: en:france, en:burgundy
 protected_name_type:en: pdo
 #wikidata:en:
 
-< fr:Pernand-Vergelesses
+< fr:Pernand-Vergelesses AOC
 fr: Pernand-Vergelesses premier cru Clos Berthet blanc
 wikidata:en: Q42863195
 
-< fr:Pernand-Vergelesses
+< fr:Pernand-Vergelesses AOC
 fr: Pernand-Vergelesses premier cru Creux de la Net, Pernand-Vergelesses Creux de la Net
 origins:en: en:france, en:burgundy
 protected_name_type:en: pdo
 #wikidata:en:
 
-< fr:Pernand-Vergelesses
+< fr:Pernand-Vergelesses AOC
 fr: Pernand-Vergelesses premier cru Creux de la Net blanc
 wikidata:en: Q42863197
 
-< fr:Pernand-Vergelesses
+< fr:Pernand-Vergelesses AOC
 fr: Pernand-Vergelesses premier cru Creux de la Net rouge
 wikidata:en: Q42863199
 
-< fr:Pernand-Vergelesses
+< fr:Pernand-Vergelesses AOC
 fr: Pernand-Vergelesses premier cru En Caradeux, Pernand-Vergelesses En Caradeux
 origins:en: en:france, en:burgundy
 protected_name_type:en: pdo
 #wikidata:en:
 
-< fr:Pernand-Vergelesses
+< fr:Pernand-Vergelesses AOC
 fr: Pernand-Vergelesses premier cru En Caradeux blanc
 wikidata:en: Q42863201
 
-< fr:Pernand-Vergelesses
+< fr:Pernand-Vergelesses AOC
 fr: Pernand-Vergelesses premier cru En Caradeux rouge
 wikidata:en: Q42863203
 
-< fr:Pernand-Vergelesses
+< fr:Pernand-Vergelesses AOC
 fr: Pernand-Vergelesses premier cru Ile des Vergelesses, Pernand-Vergelesses Ile des Vergelesses
 origins:en: en:france, en:burgundy
 protected_name_type:en: pdo
 #wikidata:en:
 
-< fr:Pernand-Vergelesses
+< fr:Pernand-Vergelesses AOC
 fr: Pernand-Vergelesses premier cru Ile des Vergelesses blanc
 wikidata:en: Q42863207
 
-< fr:Pernand-Vergelesses
+< fr:Pernand-Vergelesses AOC
 fr: Pernand-Vergelesses premier cru Ile des Vergelesses rouge
 wikidata:en: Q42863210
 
-< fr:Pernand-Vergelesses
+< fr:Pernand-Vergelesses AOC
 fr: Pernand-Vergelesses premier cru La Morand, Pernand-Vergelesses La Morand
 origins:en: en:france, en:burgundy
 protected_name_type:en: pdo
 #wikidata:en:
 
-< fr:Pernand-Vergelesses
+< fr:Pernand-Vergelesses AOC
 fr: Pernand-Vergelesses premier cru Les Fichots, Pernand-Vergelesses Les Fichots
 origins:en: en:france, en:burgundy
 protected_name_type:en: pdo
 #wikidata:en:
 
-< fr:Pernand-Vergelesses
+< fr:Pernand-Vergelesses AOC
 fr: Pernand-Vergelesses premier cru Les Fichots rouge
 wikidata:en: Q42863212
 
-< fr:Pernand-Vergelesses
+< fr:Pernand-Vergelesses AOC
 fr: Pernand-Vergelesses premier cru Les Fichots blanc
 wikidata:en: Q42863211
 
-< fr:Pernand-Vergelesses
+< fr:Pernand-Vergelesses AOC
 fr: Pernand-Vergelesses premier cru Les Plantes des Champs et Combottes, Pernand-Vergelesses Les Plantes des Champs et Combottes
 origins:en: en:france, en:burgundy
 protected_name_type:en: pdo
 #wikidata:en:
 
-< fr:Pernand-Vergelesses
+< fr:Pernand-Vergelesses AOC
 fr: Pernand-Vergelesses premier cru Les Quartiers, Pernand-Vergelesses Les Quartiers
 origins:en: en:france, en:burgundy
 protected_name_type:en: pdo
 #wikidata:en:
 
-< fr:Pernand-Vergelesses
+< fr:Pernand-Vergelesses AOC
 fr: Pernand-Vergelesses premier cru Sous Frétille, Pernand-Vergelesses Sous Frétille
 origins:en: en:france, en:burgundy
 protected_name_type:en: pdo
 #wikidata:en:
 
-< fr:Pernand-Vergelesses
+< fr:Pernand-Vergelesses AOC
 fr: Pernand-Vergelesses premier cru Sous Frétille blanc
 wikidata:en: Q42864341
 
-< fr:Pernand-Vergelesses
+< fr:Pernand-Vergelesses AOC
 fr: Pernand-Vergelesses premier cru Vergelesses, Pernand-Vergelesses Vergelesses
 origins:en: en:france, en:burgundy
 protected_name_type:en: pdo
 #wikidata:en:
 
-< fr:Pernand-Vergelesses
+< fr:Pernand-Vergelesses AOC
 fr: Pernand-Vergelesses premier cru Village de Pernand, Pernand-Vergelesses Village de Pernand
 origins:en: en:france, en:burgundy
 protected_name_type:en: pdo
 #wikidata:en:
 
-< fr:Pernand-Vergelesses
+< fr:Pernand-Vergelesses AOC
 fr: Pernand-Vergelesses premier cru Village de Pernand blanc
 wikidata:en: Q42864347
 
@@ -92865,10 +92865,16 @@ fr: Vermicelles de blé dur
 es: Fideuá de trigo duro
 
 < en:Durum wheat pasta
-< fr:Torsades
+< af:Fusilli
 es: Fusilli de trigo duro, Hélices de trigo duro
 fr: Fusilli de blé dur, Hélices de blé dur, torsades de blé dur
 nl: Durum tarwefusilli
+
+< es:Fusilli de trigo duro
+it: fusilli di grano duro duro
+
+< es:Fusilli de trigo duro
+it: fusilli di grano cosi duro
 
 < en:Durum wheat pasta
 en: Durum wheat letters
@@ -100360,12 +100366,16 @@ ciqual_food_name:en: Black seabream, raw
 wikidata:en: Q1135606
 
 < en:Fishes
-< en:Seabreams
 en: Blackspot seabream
-fr: dorade rose, daurade rose
+fr: dorade rose, daurade rose, doooraaade rooose
 agribalyse_food_code:en: 26109
 ciqual_food_code:en: 26109
 ciqual_food_name:en: Blackspot seabream, raw
+wikipedia:en: https://en.wikipedia.org/wiki/Blackspot_seabream
+
+< en:Blackspot seabream
+fr: dorade presque rose
+it: il pesce che è quasi rosa
 
 < en:Fishes
 en: Salema
@@ -118336,3 +118346,12 @@ gpc_category_code:en: 10000613
 gpc_category_description:en: Definition: Includes any products that can be described/observed as two or more distinct Prepared and Preserved Foods sold together which exist within the schema but belong to different classes, that is two or more products contained within the same pack which cross classes within the Prepared and Preserved Foods Family. Includes products such as Chicken Korma and Ice Cream variety packs. Items that are received free with purchases should be removed from the classification decision-making process. Definition Excludes: Excludes products such as Jam and Chocolate Spread variety packs and Chips and Dips variety packs.
 gpc_category_name:en: Prepared/Preserved Foods Variety Packs
 
+
+en: totally nonsensical category
+fr: Une catégorie qui n'a pas de sens, C'est n'importe quoi
+it: La categoria senza senso
+
+< en:totally nonsensical category
+en: strange category
+fr: Une catégorie quel est étrange
+wikipedia:en: https://en.wikipedia.org/wiki/Strange
