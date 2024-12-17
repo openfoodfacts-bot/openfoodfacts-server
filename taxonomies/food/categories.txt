@@ -100367,6 +100367,10 @@ ciqual_food_code:en: 26109
 ciqual_food_name:en: Blackspot seabream, raw
 wikipedia:en: https://en.wikipedia.org/wiki/Blackspot_seabream
 
+< en:Blackspot seabream
+fr: dorade presque rose
+it: il pesce che è quasi rosa
+
 < en:Fishes
 en: Salema
 fr: Saupe
