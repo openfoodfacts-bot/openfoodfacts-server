@@ -3,6 +3,8 @@
 ## --------------- Start with data quality errors. See: https://world.openfoodfacts.org/data-quality-errors
 
 # Data quality errors should not contain false positive, as opposed to data quality warnings
+
+# Data quality errors should not contain false positive, as opposed to data quality warnings
 en: Data quality errors
 de: Datenqualitätsfehler
 es: Errores de calidad de datos
@@ -913,7 +915,9 @@ fix_action:en: add_ingredients_text
 
 ### Labels
 
-< en:Data quality errors
+
+### Labels
+
 en: vegan label but non vegan ingredient
 de: veganes-label-aber-nicht-vegane-zutat
 es: etiqueta-vegana-pero-ingrediente-no-vegano
@@ -1123,7 +1127,10 @@ description:en: These two categories cannot both appear on the same product.
 
 ## --------------- Then data quality warnings
 
-en: Data quality warnings
+
+## --------------- Then data quality warnings
+
+en: data quality potential problems, Data quality warnings
 description:en: Possible error on data detected. Might be a false alert.
 description:de: Möglicher Datenfehler erkannt. Könnte ein falscher Alarm sein.
 description:es: Posible error en los datos detectado. Podría ser una alerta falsa.
@@ -1132,7 +1139,7 @@ description:it: Possibile errore sui dati rilevato. Potrebbe essere un falso all
 description:pt: Possível erro nos dados detectado. Pode ser um alerta falso.
 marker_type:en: warning
 
-en: Data quality ok tags
+en: data quality ok tagss
 description:en: Positive appreciations on data quality
 description:de: Positive Bewertungen zur Datenqualität
 description:es: Apreciaciones positivas sobre la calidad de los datos
@@ -1296,8 +1303,12 @@ fix_action:en: add_quantity
 
 ### Fibers
 
-< en:Data quality warnings
-en: Fibers warnings
+
+
+### Fibers
+
+< en:data quality potential problems
+en: Fibers warnings, fiber warnings
 description:en: There might be an issue with the fibers nutrient
 fix_action:en: add_nutrition_facts
 
@@ -1325,6 +1336,8 @@ fix_action:en: add_ingredients_text
 
 < en:Ingredients warnings
 en: All but one ingredient with specified percent
+fr: Tous les ingrédients saufs un avec des pourcentages spécifiés
+description:en: C'est important pour réussir à comprendre ce qui fait que l'on ne peut pas faire ce que l'on doit faire
 #description:en:
 
 < en:Ingredients warnings
@@ -3711,4 +3724,11 @@ description:en: In EU, a claim that a food is high in polyunsaturated fat may on
 < en:Data quality warnings
 en: rich in unsaturated fatty acids label claim but unsaturated fat under limitation
 description:en: In EU, a claim that a food is high in unsaturated fat may only be made where at least 70 % of the fatty acids present in the product derive from unsaturated fat under the condition that unsaturated fat provides more than 20 % of energy of the product. See: https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A02006R1924-20141213
+
+
+< fr:une nouvelle entrée
+fr: Fils de la nouvelle entrée
+
+fr: une nouvelle entrée, avec un synonyme
+bg: modifikaßion
 
