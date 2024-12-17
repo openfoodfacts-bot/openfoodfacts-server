@@ -92870,6 +92870,12 @@ es: Fusilli de trigo duro, Hélices de trigo duro
 fr: Fusilli de blé dur, Hélices de blé dur, torsades de blé dur
 nl: Durum tarwefusilli
 
+< es:Fusilli de trigo duro
+it: fusilli di grano duro duro
+
+< es:Fusilli de trigo duro
+it: fusilli di grano cosi duro
+
 < en:Durum wheat pasta
 en: Durum wheat letters
 es: Letras de trigo duro
