@@ -19769,134 +19769,134 @@ wikidata:en: Q3559359
 < en:Burgundy wines
 < en:Red wines
 < en:White wines
-fr: Pernand-Vergelesses
+fr: Pernand-Vergelesses AOC, Pernand-Vergelesses
 origins:en: en:france, en:burgundy
 protected_name_type:en: pdo
 wikidata:en: Q3375509
 
-< fr:Pernand-Vergelesses
+< fr:Pernand-Vergelesses AOC
 fr: Pernand-Vergelesses blanc
 wikidata:en: Q42863192
 
-< fr:Pernand-Vergelesses
+< fr:Pernand-Vergelesses AOC
 fr: Pernand-Vergelesses Côte de Beaune
 origins:en: en:france, en:burgundy
 protected_name_type:en: pdo
 #wikidata:en:
 
-< fr:Pernand-Vergelesses
+< fr:Pernand-Vergelesses AOC
 fr: Pernand-Vergelesses premier cru
 origins:en: en:france, en:burgundy
 protected_name_type:en: pdo
 #wikidata:en:
 
-< fr:Pernand-Vergelesses
+< fr:Pernand-Vergelesses AOC
 fr: Pernand-Vergelesses premier cru Clos Berthet, Pernand-Vergelesses Clos Berthet
 origins:en: en:france, en:burgundy
 protected_name_type:en: pdo
 #wikidata:en:
 
-< fr:Pernand-Vergelesses
+< fr:Pernand-Vergelesses AOC
 fr: Pernand-Vergelesses premier cru Clos Berthet blanc
 wikidata:en: Q42863195
 
-< fr:Pernand-Vergelesses
+< fr:Pernand-Vergelesses AOC
 fr: Pernand-Vergelesses premier cru Creux de la Net, Pernand-Vergelesses Creux de la Net
 origins:en: en:france, en:burgundy
 protected_name_type:en: pdo
 #wikidata:en:
 
-< fr:Pernand-Vergelesses
+< fr:Pernand-Vergelesses AOC
 fr: Pernand-Vergelesses premier cru Creux de la Net blanc
 wikidata:en: Q42863197
 
-< fr:Pernand-Vergelesses
+< fr:Pernand-Vergelesses AOC
 fr: Pernand-Vergelesses premier cru Creux de la Net rouge
 wikidata:en: Q42863199
 
-< fr:Pernand-Vergelesses
+< fr:Pernand-Vergelesses AOC
 fr: Pernand-Vergelesses premier cru En Caradeux, Pernand-Vergelesses En Caradeux
 origins:en: en:france, en:burgundy
 protected_name_type:en: pdo
 #wikidata:en:
 
-< fr:Pernand-Vergelesses
+< fr:Pernand-Vergelesses AOC
 fr: Pernand-Vergelesses premier cru En Caradeux blanc
 wikidata:en: Q42863201
 
-< fr:Pernand-Vergelesses
+< fr:Pernand-Vergelesses AOC
 fr: Pernand-Vergelesses premier cru En Caradeux rouge
 wikidata:en: Q42863203
 
-< fr:Pernand-Vergelesses
+< fr:Pernand-Vergelesses AOC
 fr: Pernand-Vergelesses premier cru Ile des Vergelesses, Pernand-Vergelesses Ile des Vergelesses
 origins:en: en:france, en:burgundy
 protected_name_type:en: pdo
 #wikidata:en:
 
-< fr:Pernand-Vergelesses
+< fr:Pernand-Vergelesses AOC
 fr: Pernand-Vergelesses premier cru Ile des Vergelesses blanc
 wikidata:en: Q42863207
 
-< fr:Pernand-Vergelesses
+< fr:Pernand-Vergelesses AOC
 fr: Pernand-Vergelesses premier cru Ile des Vergelesses rouge
 wikidata:en: Q42863210
 
-< fr:Pernand-Vergelesses
+< fr:Pernand-Vergelesses AOC
 fr: Pernand-Vergelesses premier cru La Morand, Pernand-Vergelesses La Morand
 origins:en: en:france, en:burgundy
 protected_name_type:en: pdo
 #wikidata:en:
 
-< fr:Pernand-Vergelesses
+< fr:Pernand-Vergelesses AOC
 fr: Pernand-Vergelesses premier cru Les Fichots, Pernand-Vergelesses Les Fichots
 origins:en: en:france, en:burgundy
 protected_name_type:en: pdo
 #wikidata:en:
 
-< fr:Pernand-Vergelesses
+< fr:Pernand-Vergelesses AOC
 fr: Pernand-Vergelesses premier cru Les Fichots rouge
 wikidata:en: Q42863212
 
-< fr:Pernand-Vergelesses
+< fr:Pernand-Vergelesses AOC
 fr: Pernand-Vergelesses premier cru Les Fichots blanc
 wikidata:en: Q42863211
 
-< fr:Pernand-Vergelesses
+< fr:Pernand-Vergelesses AOC
 fr: Pernand-Vergelesses premier cru Les Plantes des Champs et Combottes, Pernand-Vergelesses Les Plantes des Champs et Combottes
 origins:en: en:france, en:burgundy
 protected_name_type:en: pdo
 #wikidata:en:
 
-< fr:Pernand-Vergelesses
+< fr:Pernand-Vergelesses AOC
 fr: Pernand-Vergelesses premier cru Les Quartiers, Pernand-Vergelesses Les Quartiers
 origins:en: en:france, en:burgundy
 protected_name_type:en: pdo
 #wikidata:en:
 
-< fr:Pernand-Vergelesses
+< fr:Pernand-Vergelesses AOC
 fr: Pernand-Vergelesses premier cru Sous Frétille, Pernand-Vergelesses Sous Frétille
 origins:en: en:france, en:burgundy
 protected_name_type:en: pdo
 #wikidata:en:
 
-< fr:Pernand-Vergelesses
+< fr:Pernand-Vergelesses AOC
 fr: Pernand-Vergelesses premier cru Sous Frétille blanc
 wikidata:en: Q42864341
 
-< fr:Pernand-Vergelesses
+< fr:Pernand-Vergelesses AOC
 fr: Pernand-Vergelesses premier cru Vergelesses, Pernand-Vergelesses Vergelesses
 origins:en: en:france, en:burgundy
 protected_name_type:en: pdo
 #wikidata:en:
 
-< fr:Pernand-Vergelesses
+< fr:Pernand-Vergelesses AOC
 fr: Pernand-Vergelesses premier cru Village de Pernand, Pernand-Vergelesses Village de Pernand
 origins:en: en:france, en:burgundy
 protected_name_type:en: pdo
 #wikidata:en:
 
-< fr:Pernand-Vergelesses
+< fr:Pernand-Vergelesses AOC
 fr: Pernand-Vergelesses premier cru Village de Pernand blanc
 wikidata:en: Q42864347
 
@@ -100360,12 +100360,12 @@ ciqual_food_name:en: Black seabream, raw
 wikidata:en: Q1135606
 
 < en:Fishes
-< en:Seabreams
 en: Blackspot seabream
-fr: dorade rose, daurade rose
+fr: dorade rose, daurade rose, doooraaade rooose
 agribalyse_food_code:en: 26109
 ciqual_food_code:en: 26109
 ciqual_food_name:en: Blackspot seabream, raw
+wikipedia:en: https://en.wikipedia.org/wiki/Blackspot_seabream
 
 < en:Fishes
 en: Salema
