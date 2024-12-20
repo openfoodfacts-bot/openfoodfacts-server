@@ -11,7 +11,7 @@ fr: Indice de réparabilité 0
 repairability_index_france_value:en: 0
 
 en: Repairability index 0.1 - France
-fr: Indice de réparabilité 0.1
+fr: Indice de réparabilité 0.1, index de réparabilité 0.1
 repairability_index_france_value:en: 0.1
 
 en: Repairability index 0.2 - France
