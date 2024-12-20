@@ -376,18 +376,20 @@ en:Hair, Hair products
 fr:Cheveux, produits pour cheveux,produits pour les cheveux, produits capillaires, produits coiffants, produits capilaires
 nl:Haar, haarproducten
 
-<en:Hair
-en:Hair conditioners
-fr:Après-shampoings, Après-shampoing, Après-shampooings, Après shampooing
-wikidata:en:Q1056607
+< en:Hair
+en: Hair conditioners
+fr: Après-shampoings, Après-shampoing, Après-shampooings, Après shampooing
+it: Balsamo per capelli
+wikidata:en: Q1056607
 
 <en:Hair conditioners
 en:Anti-dandruff hair conditioners
 fr:Après-shampoings antipelliculaires, Après-shampoing antipelliculaire
 
-<en:Hair conditioners
-en:Hair conditioners for colored hair
-fr:Après-shampoings pour cheveux colorés
+< en:Hair conditioners
+en: Hair conditioners for colored hair
+fr: Après-shampoings pour cheveux colorés
+it: Balsamo per capelli colorati
 
 <en:Hair conditioners
 en:Hair conditioners for greasy hair
@@ -404,9 +406,9 @@ fr:Après-shampoings pour cheveux secs
 <en:Hair conditioners
 fr:Après-shampoings pour cheveux abimés
 
-<en:Hair conditioners
-en:Hair conditioners for children
-fr:Après-shampoings pour enfant
+< en:Hair conditioners
+en: Hair conditioners for children
+fr: Après-shampoings pour enfant
 
 #### Shampoings 
 
