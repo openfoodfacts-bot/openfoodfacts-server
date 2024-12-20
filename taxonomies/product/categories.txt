@@ -63,6 +63,11 @@ fr: Papiers toilette, papier toilette, papier hygiénique, papiers hygiéniques
 
 en: Cigarettes
 fr: Cigarettes
+it: Sigarette
+wikipedia:en: https://en.wikipedia.org/wiki/Cigarette
+
+< en:Cigarettes
+en: Flavored Cigarettes, Flavoured cigarettes
 
 en: Laundry detergents
 fr: Lessives
