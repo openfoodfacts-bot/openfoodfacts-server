@@ -60569,6 +60569,9 @@ wikipedia:en: https://en.wikipedia.org/wiki/Pea
 # ingredient/fr:pois has 259 products in 7 languages @2019-05-10
 # usage:fr:amidon (blé, pomme de terre, pois, maïs)
 
+< en:pea
+en: marrowfat-pea
+
 
 # <en:pea
 # fr:extrait de pois # see ingredients_processing.txt
