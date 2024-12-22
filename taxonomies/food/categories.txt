@@ -93947,6 +93947,11 @@ intake24_category_code:en: NDLS
 wikidata:en: Q192874
 
 < en:Noodles
+en: konjac noodles, shirataki noodles
+fr: nouilles de konjac, Vermicelles shirataki
+wikidata:en: Q2279318
+
+< en:Noodles
 en: Cellophane noodles, Chinese vermicelli, Bean threads, Bean thread noodles, Crystal noodles, Glass noodles
 es: Fideos celofán, Fideos de cristal, Glass noodles
 hr: Celofanski rezanci
