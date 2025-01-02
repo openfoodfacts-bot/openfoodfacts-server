@@ -3909,7 +3909,7 @@ wikidata:en: Q420152
 
 
 
-en: E202, Potassium sorbate
+en: E202, Potassium sorbate, K-sorbate
 xx: E202
 bg: E202, Калиев сорбат
 bs: E202, Kalij sorbat
@@ -3926,7 +3926,7 @@ fi: E202, Kaliumsorbaatti, Kaliumsorbaattia
 fr: E202, Sorbate de potassium
 he: E202, אשלגן סורבט
 hr: E202, kalijev sorbat
-hu: E202, Kálium-szorbát
+hu: E202, Kálium-szorbát, K-szorbát
 is: E202, Kalíumsorbat
 it: E202, Sorbato di potassio, potassio sorbato
 ja: E202, ソルビン酸カリウム, ソルビン酸K, ソルビン酸Ｋ
