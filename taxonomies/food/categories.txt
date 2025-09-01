@@ -33625,7 +33625,7 @@ ciqual_food_name:fr: Biscuit sec ou tuile, aux amandes
 fr: tuile aux amandes
 
 < en:Biscuits
-en: Oatmeal cookies
+en: Oatmeal cookies, oatcakes
 bg: Овесени бисквити
 de: Hafer-Cookies
 es: Galletas de avena
