@@ -171,6 +171,7 @@ en: kiwi
 ja: キウイフルーツ, キウイ, キウィー, キーウィー, キーウィ, キウィ
 
 en: banana
+it: banana
 ja: バナナ, ばなな
 
 en: peach
