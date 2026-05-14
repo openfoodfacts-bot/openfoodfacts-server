@@ -26,7 +26,7 @@ sk: Palmový olej
 sl: Palmino olje
 sr: Палмино масло
 sv: Palmolja
-tr: Hurma yağı
+tr: Hurma yağı, Palm yağı
 uk: Пальмова олія
 show_ingredients:en: from_palm_oil:yes
 
