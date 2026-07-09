@@ -70727,9 +70727,9 @@ lt: Kalendros produktai, kalendra
 nl: Korianders
 wikidata:en: Q41611
 
-< en:Aromatic herbs
+< en:Herbs
 < en:Coriander products
-en: Coriander leaves, Cilantro leaves
+en: Coriander leaves, Cilantro leaves, Cilantro
 de: Korianderblätter
 es: Hojas de cilantro, Hojas de coriandro
 fi: Korianterin lehdet
