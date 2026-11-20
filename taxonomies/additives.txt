@@ -26558,8 +26558,15 @@ sv: difosfater och natriumkarbonater
 < en: E450(i)
 < en: E500(ii)
 ca: carbonat àcid de sodi i difosfat de disodi
+en: dqcx
 fr: diphosphate disodique et carbonate acide de sodium
 ru: сода, сода пищевая, гидрокарбонат натрия, разрыхлитель гидрокарбонат натрия
+
+< ca: carbonat àcid de sodi i difosfat de disodi
+en: e5120
+
+< en: e5120
+en: e1215 0323
 
 < en: E450
 < en: E451
